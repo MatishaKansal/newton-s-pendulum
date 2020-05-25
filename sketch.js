@@ -29,7 +29,7 @@ function setup() {
 
 	rope1 = new Rope(ball1.body, roof.body, - 40*2, 0);
 	rope2 = new Rope(ball2.body, roof.body, - 20*2, 0);
-	rope3 = new Rope(ball3.body, roof.body, - 0*2, 0);
+	rope3 = new Rope(ball3.body, roof.body, 0*2, 0);
 	rope4 = new Rope(ball4.body, roof.body, 20*2, 0);
 	rope5 = new Rope(ball5.body, roof.body, 40*2, 0);
 
